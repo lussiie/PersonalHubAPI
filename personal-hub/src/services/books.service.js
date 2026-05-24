@@ -1,4 +1,4 @@
-const noteModel = require('../models/book.model') // կամ քո իրական model-ը
+const noteModel = require('../models/book.model')
 
 async function getBooks() {
   const books = await noteModel.findAll()
